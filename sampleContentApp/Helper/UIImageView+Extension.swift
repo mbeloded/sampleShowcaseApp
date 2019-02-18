@@ -27,6 +27,7 @@ extension UIImageView {
             case .failure(let error) :
                 DispatchQueue.main.async {
                     print(error.localizedDescription)
+                    self.contentMode = .center
                     self.image = placeholder
                 }
                 break

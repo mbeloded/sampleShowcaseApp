@@ -11,7 +11,7 @@ import UIKit
 class ItemTableViewCell: UITableViewCell {
 
     //MARK : variables
-    fileprivate let placeholderImage = UIImage(named: "NoPhoto")
+    fileprivate let placeholderImage = UIImage(named: "ic_no_photo")
     
     var viewModel: ItemViewModel? {
         didSet {
